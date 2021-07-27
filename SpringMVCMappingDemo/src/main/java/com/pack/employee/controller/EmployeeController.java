@@ -26,7 +26,8 @@ public class EmployeeController {
 	  @RequestMapping("/home") 
 	  public String home() {
 	  
-	  return "index"; }
+	  //return "index"; 
+return "index2";}
 	 
 	
 	 @RequestMapping("/addUserForm")  
